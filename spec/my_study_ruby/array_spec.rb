@@ -37,7 +37,7 @@ RSpec.describe Array do
 
   describe "practice" do
     it "delete_if + empty?" do
-      basket = ["banana", "maça", "uva"]
+      basket = %w[banana maça uva]
 
       new_basket = basket.delete_if { |element| element.to_s.include?("a") }
 
