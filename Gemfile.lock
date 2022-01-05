@@ -7,12 +7,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
-    debase (2.3.2)
-      debase-ruby_core_source (~> 0.10.11)
-    debase-ruby_core_source (0.10.12)
     diff-lcs (1.5.0)
     parallel (1.21.0)
-    parser (3.0.3.2)
+    parser (3.1.0.0)
       ast (~> 2.4.1)
     rainbow (3.0.0)
     rake (13.0.6)
@@ -31,19 +28,19 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.3)
-    rubocop (1.24.0)
+    rubocop (1.24.1)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml
-      rubocop-ast (>= 1.15.0, < 2.0)
+      rubocop-ast (>= 1.15.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.15.1)
       parser (>= 3.0.1.1)
-    ruby-debug-ide (2.3.1)
-      debase (~> 2.3.2)
+    ruby-debug-ide (0.7.3)
+      rake (>= 0.8.1)
     ruby-progressbar (1.11.0)
     unicode-display_width (2.1.0)
 
@@ -58,4 +55,4 @@ DEPENDENCIES
   ruby-debug-ide
 
 BUNDLED WITH
-   2.2.28
+   2.3.3
