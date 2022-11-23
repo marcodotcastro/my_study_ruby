@@ -22,6 +22,12 @@ RSpec.describe String do
       expect(result).to eq("heo")
     end
 
+    it "concat" do
+      result = string.delete("l")
+
+      expect(result).to eq("heo")
+    end
+
     it "ljust" do
       result = string.ljust(10, "o")
 
