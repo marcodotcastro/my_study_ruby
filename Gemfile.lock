@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    my_study_ruby (0.1.0)
+    my_study_ruby (0.1.2)
 
 GEM
   remote: https://rubygems.org/

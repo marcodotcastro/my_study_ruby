@@ -10,6 +10,12 @@ RSpec.describe String do
       expect(result).to eq(true)
     end
 
+    it "count" do
+      result = string.start_with?("he")
+
+      expect(result).to eq(true)
+    end
+
     it "include?" do
       result = string.include?("ll")
 
@@ -19,6 +25,13 @@ RSpec.describe String do
     it "delete" do
       result = string.delete("l")
 
+      expect(result).to eq("heo")
+    end
+
+    it "concat" do
+      result = string.delete("l")
+
+      expect(result).to eq("heo")
       expect(result).to eq("heo")
     end
 
