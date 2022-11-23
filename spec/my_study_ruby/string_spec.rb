@@ -10,6 +10,12 @@ RSpec.describe String do
       expect(result).to eq(true)
     end
 
+    it "count" do
+      result = string.start_with?("he")
+
+      expect(result).to eq(true)
+    end
+
     it "include?" do
       result = string.include?("ll")
 
