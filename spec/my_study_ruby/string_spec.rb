@@ -26,6 +26,7 @@ RSpec.describe String do
       result = string.delete("l")
 
       expect(result).to eq("heo")
+      expect(result).to eq("heo")
     end
 
     it "ljust" do
